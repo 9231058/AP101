@@ -31,5 +31,11 @@ public class Main {
 		pList.set(0, -10);
 		pList.set(1, -20);
 		System.out.println(pList);
+
+		/* Print all the array elements using foreach */
+		for (int element : pList) {
+			System.out.println(element);
+		}
 	}
+}
 }
