@@ -14,14 +14,19 @@
 package home.parham.enumeration;
 
 public enum PEnum {
-	A(10), B(20), C(30);
+	/* declare constants of enum type */
+	A(10),
+	B(20),
+	C(30);
 
 	private int value;
 
+	/* enum constructor */
 	private PEnum(int value){
 		this.value = value;
 	}
 
+	/* Accessor for field value */
 	public int getValue(){
 		return value;
 	}
