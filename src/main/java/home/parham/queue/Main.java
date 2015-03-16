@@ -54,6 +54,23 @@ public class Main {
 
 		System.out.println("Total time is " + total);
 
+		/*************Standard**********************/
+
+		StandardQueue<Person> standardQueue = new StandardQueue<Person>();
+
+		for (int i = 0; i < 10; i++) {
+			standardQueue.add(new Person("name " + i));
+		}
+
+		for (int i = 0; i < standardQueue.size(); i++) {
+			int alpha = standardQueue.remove().getTime();
+			total += alpha;
+			System.out.println(alpha);
+			// OR eliminate <Person> and cast for getTime()
+		}
+
+		System.out.println("Total time is " + total);
+
 
 	}
 }
