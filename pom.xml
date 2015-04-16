@@ -21,6 +21,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                 <active>true</active>
             </properties>
         </developer>
+        <developer>
+            <id>smahmadpanah</id>
+            <name>Seyed Mohammad Mehdi Ahmadpanah</name>
+            <email>smahmadpanah@gmail.com</email>
+            <properties>
+                <active>true</active>
+            </properties>
+        </developer>
     </developers>
 
 </project>
