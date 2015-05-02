@@ -9,12 +9,22 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Open Trax</name>
+    <name>AP101</name>
     <url>https://github.com/1995parham/AP101</url>
 
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
 
     <developers>
         <developer>
