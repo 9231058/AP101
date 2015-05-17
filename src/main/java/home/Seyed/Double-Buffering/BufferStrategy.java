@@ -1,6 +1,6 @@
 
 /* Source: http://download.oracle.com/javase/tutorial/extra/fullscreen/bufferstrategy.html */
-
+/*
 BufferStrategy myStrategy;
 
 while (!done) {
@@ -13,7 +13,7 @@ while (!done) {
     }
     myStrategy.show();
 }
-
+*/
 //==========================================================================================//
 
 /* Source: http://gpwiki.org/index.php/Java:Tutorials:Double_Buffering */
