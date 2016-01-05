@@ -13,8 +13,13 @@ Teaching Assistants:
 # JavaDoc
 Local javadoc: [here](http://ceit.aut.ac.ir/~9231058/java)
 
-# Tutorials Point
+# Tutorials
 To learn new features and techniques in java, use our best friend, GOOGLE or these [tutorials](http://www.tutorialspoint.com/index.htm)
 
 Have Fun! :)
 
+# Slides
+In order to compile slides you must install `pygments` python package with following command:
+```
+sudo pip3 install pygments
+```
