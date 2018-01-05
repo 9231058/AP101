@@ -1,0 +1,3 @@
+rootProject.name = 'LinkedList'
+rootProject.buildFileName = 'build.gradle.kts'
+
