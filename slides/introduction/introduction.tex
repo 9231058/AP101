@@ -1,0 +1,126 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+	\usetheme{CambridgeUS}
+	\usecolortheme{crane}
+	\usefonttheme{default}
+}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{minted}
+\usepackage{lipsum}
+\usepackage[export]{adjustbox}
+
+%----------------------------------------------------------------------------------------
+%	My Customized Settings
+%----------------------------------------------------------------------------------------
+
+\definecolor{UniBlue}{RGB}{83,121,170}
+\definecolor{Black}{RGB}{125, 125, 125}
+\definecolor{DarkBlue}{RGB}{50, 50, 153}
+\definecolor{DarkGray}{RGB}{90,90,90}
+\definecolor{LightGray}{RGB}{150,150,150}
+\definecolor{TextGreen}{RGB}{115,155,15}
+\definecolor{TextOrange}{RGB}{229, 148, 0}
+\definecolor{Ocean}{RGB}{23,142,189}
+\definecolor{BG}{RGB}{215,215,215}
+
+
+\setbeamercolor{normal}{fg=DarkGray}
+\setbeamercolor{title}{fg=UniBlue}
+\setbeamercolor{frametitle}{fg=UniBlue}
+\setbeamercolor{structure}{fg=UniBlue}
+\setbeamercolor{normal text}{fg=DarkGray,bg=white}
+\setbeamercolor{section number projected}{bg=UniBlue,fg=white}
+
+\setbeamertemplate{itemize item}{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\bullet$}}
+\setbeamertemplate{itemize subsubitem}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacksqaure$}}
+\setbeamercolor{itemize item}{fg=darkred}
+\setbeamercolor{itemize subitem}{fg=TextGreen}
+\setbeamercolor{itemize subbody}{fg=LightGray}
+
+\setbeamertemplate{enumerate subitem}{\insertenumlabel.\insertsubenumlabel}
+\setbeamertemplate{enumerate subsubitem}{\insertenumlabel.\insertsubenumlabel.\insertsubsubenumlabel}
+\setbeamertemplate{enumerate mini template}{\insertenumlabel}
+
+\setbeamertemplate{navigation symbols}{}
+
+\newcommand\VeryLargeFont{\fontsize{30}{15}\selectfont}
+\newcommand\LargeFont{\fontsize{15}{15}\selectfont}
+\newcommand\TinyFont{\fontsize{6}{6}\selectfont}
+
+\setbeamertemplate{frametitle} {
+  \nointerlineskip
+  \begin{beamercolorbox}[sep=0.15cm,ht=1.3em,wd=\paperwidth]{frametitle}
+    \vbox{}\vskip-2ex
+    \strut\insertframetitle\strut
+    \vskip-0.8ex
+  \end{beamercolorbox}
+}
+
+\defbeamertemplate*{title page}{customized}[1][] {
+	\centering
+	\bigskip
+	\bigskip
+	\bigskip
+	\usebeamercolor[fg]{title}\insertsubtitle\par
+	\usebeamerfont{title}\inserttitle\par
+	\usebeamerfont{subtitle}
+	\bigskip
+	\usebeamercolor[fg]{normal}
+	\usebeamerfont{author}\insertauthor\par
+	\usebeamerfont{institute}\insertinstitute\par
+	\usebeamerfont{date}\insertdate\par
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+	\bigskip
+	\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\title[AP101: Advanced Computer Programming]{INTRODUCTION}
+\author{AP101 @ AUT: TA Team}
+\institute[] {
+  Amirkabir University of Technology \\
+  \medskip
+  {\small\tt Babak Alipour}\\
+  {\small\tt S.M.M.Ahmadpanah}\\
+  {\small\tt Parham Alvani}
+  \medskip
+}
+\date{\today}
+\titlegraphic{\hspace*{5cm}\includegraphics[width=2cm]{figs/aut_logo.jpeg}}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\begin{frame}
+	\frametitle{People to know\dots}
+	\begin{itemize}
+		\item Instructor:
+			\begin{itemize}
+				\item<2-> Dr. Majid Noorhosseini
+			\end{itemize}
+		\item Teaching Assistants:
+			\begin{itemize}
+				\item<3-> Seyed Mohammad Mehdi Ahmadpanah (Me)
+				\item<3-> Parham Alvani
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+\end{document}
