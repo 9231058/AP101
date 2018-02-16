@@ -10,19 +10,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <packaging>jar</packaging>
 
     <name>AP101</name>
-    <url>https://github.com/1995parham/AP101</url>
+    <url>https://github.com/aut-ceit/AP101</url>
 
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>com.google.android</groupId>
-            <artifactId>android</artifactId>
-            <version>4.1.1.4</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
 
