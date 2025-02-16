@@ -14,10 +14,6 @@ Feel free to visit and use some sample codes in Java for the Advanced Programmin
 - Hani Hojjat Ansari
 - [PanteA Habibi](https://github.com/panteaa)
 
-## JavaDoc
-
-Local javadoc: [here](http://ceit.aut.ac.ir/~9231058/java)
-
 ## Tutorials
 
 To learn new features and techniques in java, use our best friend, GOOGLE or these [tutorials](http://www.tutorialspoint.com/index.htm)
